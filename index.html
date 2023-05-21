@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Encuesta de ciberseguridad</h1>
+        <p id="description">Ayudanos a mejorar</p>
+      </header>
+
+      <main>
+        <form id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Nombre:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ingresa tu nombre"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" id="email-label">Correo electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingresa tu correo electrónico"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="number" id="number-label">Edad (opcional):</label>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              min="13"
+              max="120"
+              placeholder="Edad"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <p id="eliminar-margin-top">
+              ¿Qué tan familiarizado estás con el término "ciberseguridad"?
+            </p>
+            <select name="familiar" class="form-control" id="dropdown">
+              <option value="1">Nada familiarizado</option>
+              <option value="2">Poco familiarizado</option>
+              <option value="3">Moderadamente familiarizado</option>
+              <option value="4">Muy familiarizado</option>
+            </select>
+
+            <p>
+              ¿Qué tipo de medidas de seguridad utilizas normalmente en línea?
+              (Selecciona todas las que correspondan)
+            </p>
+            <label
+              ><input
+                type="checkbox"
+                value="Contraseñas seguras"
+                name="medidas"
+              />Contraseñas seguras</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                value="Autenticación de dos factores"
+                name="medidas"
+              />Autenticación de dos factores</label
+            >
+            <label
+              ><input type="checkbox" value="VPN" name="medidas" />VPN</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                value="Firewall"
+                name="medidas"
+              />Firewall</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                value="Ninguna de las anteriores"
+                name="medidas"
+              />Ninguna de las anteriores</label
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="fav-site">Sitio web favorito:</label>
+            <input
+              type="text"
+              id="fav-site"
+              name="fav-site"
+              placeholder="https://www.ejemplo.com"
+              required
+            />
+            <label for="tech-use">Tecnologías utilizadas:</label>
+            <textarea
+              id="tech-use"
+              name="tech-use"
+              rows="3"
+              cols="30"
+              placeholder="Ej: HTML, CSS, JavaScript"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <p id="eliminar-margin-top">¿Te importa la privacidad en línea?</p>
+            <label><input type="radio" name="privacy" value="yes" />Sí</label>
+            <label><input type="radio" name="privacy" value="no" />No</label>
+
+            <p>¿Cómo proteges tus datos en línea?</p>
+            <label
+              ><input type="checkbox" name="data-protect" value="vpn" />Usando
+              una VPN</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="data-protect"
+                value="password-manager"
+              />Usando un gestor de contraseñas</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="data-protect"
+                value="two-factor-auth"
+              />Usando autenticación de dos factores</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="data-protect"
+                value="other"
+              />Otro</label
+            >
+          </div>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </form>
+      </main>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
