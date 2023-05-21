@@ -39,7 +39,9 @@ To use the survey form, follow these steps:
 
 Contributions are welcome ❗ If you have any suggestions, improvements, or bug fixes, feel free to submit a pull request 👷‍♂️ . Please make sure to follow the code style and conventions used in the project.
 
-Contact 💻
+---
+
+### Contact 💻
 For any inquiries or feedback, please contact me via [agonzalezpastena7t@gmail.com].
 
 Note: This survey form is a fictional project created for demonstration purposes only.
