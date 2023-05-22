@@ -29,8 +29,8 @@ This is a survey form project about cybersecurity created by me, Alex, feel fre 
 
 To use the survey form, follow these steps:
 
-- 1️⃣ Clone the repository: git clone https://github.com/AlexMGP7/web_survey_form.git
-- 2️⃣ Navigate to the project directory: cd web_survey_form
+- 1️⃣ Clone the repository: git clone https://github.com/AlexMGP7/web-survey-form.git
+- 2️⃣ Navigate to the project directory: cd web-survey-form
 - 3️⃣ Open the index.html file in your preferred web browser.
 
 ---
